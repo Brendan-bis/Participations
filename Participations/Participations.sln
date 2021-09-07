@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWPFApplication", "FirstWPFApplication\FirstWPFApplication.csproj", "{F85BDC7D-6A11-40BC-BE62-46275887A0FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstWPFApplication", "FirstWPFApplication\FirstWPFApplication.csproj", "{F85BDC7D-6A11-40BC-BE62-46275887A0FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_with_class_review", "WPF_with_class_review\WPF_with_class_review.csproj", "{6B01113C-350F-4B33-BFFC-09554DD353ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_FizzBuzz", "WPF_FizzBuzz\WPF_FizzBuzz.csproj", "{98360486-5D7C-4A5A-A272-E534EAA6D6CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F85BDC7D-6A11-40BC-BE62-46275887A0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F85BDC7D-6A11-40BC-BE62-46275887A0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F85BDC7D-6A11-40BC-BE62-46275887A0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B01113C-350F-4B33-BFFC-09554DD353ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B01113C-350F-4B33-BFFC-09554DD353ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B01113C-350F-4B33-BFFC-09554DD353ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B01113C-350F-4B33-BFFC-09554DD353ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98360486-5D7C-4A5A-A272-E534EAA6D6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98360486-5D7C-4A5A-A272-E534EAA6D6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98360486-5D7C-4A5A-A272-E534EAA6D6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98360486-5D7C-4A5A-A272-E534EAA6D6CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
