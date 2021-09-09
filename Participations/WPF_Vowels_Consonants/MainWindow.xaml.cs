@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPF_with_class_review
+namespace WPF_Vowels_Consonants
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,25 +23,31 @@ namespace WPF_with_class_review
         public MainWindow()
         {
             InitializeComponent();
-            txtWordOrNumber.Clear();
-            //Right click project->manage nuget packages -> search QRCoder
+            txtInput.Clear();
+            
         }
 
         private void btnWordOrNumber_Click(object sender, RoutedEventArgs e)
         {
-            string input = txtWordOrNumber.Text;
-            double value;
-            bool isNumber = double.TryParse(input, out value);
-            if (isNumber)
+            lstVowels.Items.Clear();
+            lstConsonants.Items.Clear();
+            string input = txtInput.Text;
+            for (int i = 1; i < input.Length; i++)
             {
-                listBoxNumbers.Items.Add(value.ToString("N3"));
-            }
-            else
-            {
-                listBoxWords.Items.Add(input);
-            }
-            txtWordOrNumber.Clear();
+                if (input[i] == 'a' || input[i] == 'e' || input[i] == 'o' || input[i] == 'i' || input[i] == 'u')
+                {
+                    lstVowels.Items.Add(input[i]);
+                }
+                else
+                {
+                    lstConsonants.Items.Add(input[i]);
 
+                }
+                
+
+            }
+           
+            txtInput.Clear();
             
         }
     }

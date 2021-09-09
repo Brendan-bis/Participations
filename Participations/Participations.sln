@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstWPFApplication", "FirstWPFApplication\FirstWPFApplication.csproj", "{F85BDC7D-6A11-40BC-BE62-46275887A0FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_with_class_review", "WPF_with_class_review\WPF_with_class_review.csproj", "{6B01113C-350F-4B33-BFFC-09554DD353ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_with_class_review", "WPF_with_class_review\WPF_with_class_review.csproj", "{6B01113C-350F-4B33-BFFC-09554DD353ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_FizzBuzz", "WPF_FizzBuzz\WPF_FizzBuzz.csproj", "{98360486-5D7C-4A5A-A272-E534EAA6D6CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_FizzBuzz", "WPF_FizzBuzz\WPF_FizzBuzz.csproj", "{98360486-5D7C-4A5A-A272-E534EAA6D6CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Vowels_Consonants", "WPF_Vowels_Consonants\WPF_Vowels_Consonants.csproj", "{9CB35A35-17B3-4B3E-BA15-681095CAF0DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{98360486-5D7C-4A5A-A272-E534EAA6D6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98360486-5D7C-4A5A-A272-E534EAA6D6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98360486-5D7C-4A5A-A272-E534EAA6D6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB35A35-17B3-4B3E-BA15-681095CAF0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB35A35-17B3-4B3E-BA15-681095CAF0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB35A35-17B3-4B3E-BA15-681095CAF0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB35A35-17B3-4B3E-BA15-681095CAF0DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
