@@ -19,6 +19,9 @@
         <TextBox x:Name="txtImage" HorizontalAlignment="Left" Margin="197,322,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="197,353,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnInput" Content="Add Toy" HorizontalAlignment="Left" Margin="197,392,0,0" VerticalAlignment="Top" Height="24" Width="120" IsDefault="True" Background="White" Click="btnInput_Click"/>
+        <ListBox x:Name="lstToys" Margin="353,207,47,10" SelectionChanged="lstToys_SelectionChanged"/>
+        <Label Content="OU Toy Store" HorizontalAlignment="Left" Margin="103,207,0,0" VerticalAlignment="Top" Width="214" FontSize="22"/>
+        <Image x:Name="imgToy" HorizontalAlignment="Left" Height="100" Margin="654,78,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>
