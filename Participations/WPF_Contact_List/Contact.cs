@@ -20,11 +20,11 @@ namespace WPF_Contact_List
         {
             var pieces = line.Split('|');
 
-            ID = Convert.ToInt32(pieces[1]);
-            FirstName = pieces[2];
-            LastName = pieces[3];
-            Email = pieces[4];
-            Photo = pieces[5];
+            ID = Convert.ToInt32(pieces[0]);
+            FirstName = pieces[1];
+            LastName = pieces[2];
+            Email = pieces[3];
+            Photo = pieces[4];
         }
 
         public override string ToString()
