@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_FizzBuzz", "WPF_FizzBuz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Vowels_Consonants", "WPF_Vowels_Consonants\WPF_Vowels_Consonants.csproj", "{9CB35A35-17B3-4B3E-BA15-681095CAF0DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Classes", "WPF_Classes\WPF_Classes.csproj", "{69C157E0-F8C8-44F3-990E-33AF0C642F97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Classes", "WPF_Classes\WPF_Classes.csproj", "{69C157E0-F8C8-44F3-990E-33AF0C642F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Contact_List", "WPF_Contact_List\WPF_Contact_List.csproj", "{8644BF74-CB4A-4829-A1D2-F4531BACC856}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{69C157E0-F8C8-44F3-990E-33AF0C642F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69C157E0-F8C8-44F3-990E-33AF0C642F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69C157E0-F8C8-44F3-990E-33AF0C642F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8644BF74-CB4A-4829-A1D2-F4531BACC856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8644BF74-CB4A-4829-A1D2-F4531BACC856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8644BF74-CB4A-4829-A1D2-F4531BACC856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8644BF74-CB4A-4829-A1D2-F4531BACC856}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
