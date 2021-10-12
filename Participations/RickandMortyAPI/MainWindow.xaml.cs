@@ -22,7 +22,7 @@ namespace RickandMortyAPI
     /// </summary>
     public partial class MainWindow : Window
     {
-        private RickAndMortyAPI api;
+        //private RickAndMortyAPI api;
         public MainWindow()
         {
 
@@ -31,20 +31,20 @@ namespace RickandMortyAPI
             //https://rickandmortyapi.com/api/character
 
             cboCharacters.Items.Clear();
+            string url = "https://rickandmortyapi.com/api/character";
             using (var client = new HttpClient())
             {
-
-                for (int i = 1; i < api.info.next.Length; i++)
+                for (int i = 0; i < 34; i++)
                 {
-                    string jsonData = client.GetStringAsync("https://rickandmortyapi.com/api/character").Result;
+                    string jsonData = client.GetStringAsync(url).Result;
                     RickAndMortyAPI api = JsonConvert.DeserializeObject<RickAndMortyAPI>(jsonData);
                     foreach (Character item in api.results)
                     {
                         cboCharacters.Items.Add(item);
                     }
-
+                    url = api.info.next;
                 }
-                
+               
             }
         }
     }
