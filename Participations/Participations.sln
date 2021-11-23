@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON_Pokemon", "JSON_Pokemo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RickandMortyAPI", "RickandMortyAPI\RickandMortyAPI.csproj", "{F953B689-1931-4669-A844-2B1EBECF5D53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_Serialization", "JSON_Serialization\JSON_Serialization.csproj", "{27DB1532-1ADA-4ADD-9CA2-90C3A5712CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON_Serialization", "JSON_Serialization\JSON_Serialization.csproj", "{27DB1532-1ADA-4ADD-9CA2-90C3A5712CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Beginner", "MVC_Beginner\MVC_Beginner.csproj", "{A51013D6-BFE9-4AC9-B6B4-7F291D697578}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{27DB1532-1ADA-4ADD-9CA2-90C3A5712CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27DB1532-1ADA-4ADD-9CA2-90C3A5712CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27DB1532-1ADA-4ADD-9CA2-90C3A5712CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51013D6-BFE9-4AC9-B6B4-7F291D697578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51013D6-BFE9-4AC9-B6B4-7F291D697578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51013D6-BFE9-4AC9-B6B4-7F291D697578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51013D6-BFE9-4AC9-B6B4-7F291D697578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
